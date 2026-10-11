@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/karai.svg" width="160" alt="Karai, the duende who guards your wallet"></p>
+
 # Karai SDK
 
 **Wallets that belong to your users.** Passkey wallets on Solana for your app, with budgets for AI agents.
