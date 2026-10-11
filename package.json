@@ -1,0 +1,42 @@
+{
+  "name": "@karai/sdk",
+  "version": "0.1.0",
+  "description": "Passkey smart wallets on Solana for your app: gasless, with budgets for AI agents that the wallet enforces.",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beor18/karai-sdk.git"
+  },
+  "homepage": "https://karai-beige.vercel.app/docs",
+  "keywords": ["solana", "passkey", "wallet", "swig", "gasless", "ai-agents"],
+  "exports": {
+    ".": "./src/index.ts",
+    "./react": "./src/react.tsx",
+    "./server": "./src/server.ts"
+  },
+  "files": ["src"],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4",
+    "@solana/web3.js": "^1.98",
+    "@swig-wallet/classic": "2.1.0",
+    "@swig-wallet/lib": "2.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "react": "19.2.8",
+    "typescript": "^5"
+  }
+}
